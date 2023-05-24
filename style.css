@@ -1,0 +1,55 @@
+body,
+html {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+*{
+    font-size: 23px;
+}
+
+.container {
+    outline: 2px gray solid;
+    padding: 10px;
+}
+
+.add {
+    display: flex;
+}.add input {
+    width:200px;
+    border-radius: 0px;
+    border: 1px gray solid;
+    background-color: azure;
+}.add button {
+    background-color: #4CAF50;
+    color:white;
+    width: 27px;
+    border: none;
+}.add button:hover {
+    background-color: rgb(3, 121, 3);
+    cursor: pointer;
+}.add input:focus {
+    outline: none;
+}.add button:focus {
+    outline: none;
+}
+.delete {
+    display: inline-flex;
+    font-size: 16px;
+    width: 100%;
+    text-align: right;
+}
+
+
+.task {
+    height: auto;
+    background-color: rgb(242, 244, 245);
+}
+.delete-btn-container {
+    outline: none;
+    padding: 10px 0px 10px;
+    display: flex;
+    justify-content: flex-start;
+    }
+  
